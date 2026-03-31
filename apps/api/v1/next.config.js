@@ -111,4 +111,4 @@ if (process.env.NODE_ENV === "production" || process.env.CALCOM_ENV === "product
   env.TRIGGER_VERSION = TRIGGER_VERSION;
 }
 
-module.exports = () => plugins.reduce((acc, next) => next(acc), nextConfig);
+module.exports = ()
